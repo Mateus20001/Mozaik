@@ -12,6 +12,7 @@
                 <img src="{{ asset('favicon.ico') }}" alt="mozaikicon">
             </a>
         </div>
+        <div id="navdiv"></div>
         <ul id="nav">
             <li><a class="noticon" id="firstmenu" href="{{ url('/konyvek') }}">Könyvek</a></li>
             <li id="otherside"><a href="{{ url('/profile') }}"><img id="profile" src="{{ asset('images/profile.png') }}" alt="profile"></a></li>
