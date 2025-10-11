@@ -74,3 +74,44 @@ nav {
 #firstmenu {
     margin-left: 250px;
 }
+@media (max-width: 768px) {
+    #nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-inline-start: 20px;
+        margin: 0;
+        border-radius: 0;
+        font-size: 1.2rem;
+        height: auto;
+    }
+
+    #nav li {
+        margin: 10px 0;
+        height: auto;
+    }
+
+    #nav li a {
+        padding: 15px 20px;
+        font-size: 1.2rem;
+    }
+
+    #profile {
+        height: 70px;
+        width: 70px;
+    }
+
+    .nav-icon {
+        margin: 20px 5px 5px 5px;
+        transform: translateY(0);
+    }
+
+    #firstmenu {
+        margin-left: 0;
+    }
+
+    #navdiv {
+        width: 100%;
+        margin-left: 0;
+        height: 50px;
+    }
+}

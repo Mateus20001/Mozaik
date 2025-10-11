@@ -2,8 +2,11 @@
 <html>
 <head>
     <title>@yield('title')</title>
+    @stack('styles')
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}">
     <link rel="stylesheet" href="{{ asset('css/nav.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/konyvek.css') }}">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 </head>
 <body>
     <nav>

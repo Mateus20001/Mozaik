@@ -29,3 +29,31 @@ html {
     width: 50%;
 }
 
+h1 {
+    color: #315780;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    html, body {
+        width: 100vw;
+        min-height: 100vh;
+    }
+
+    .content {
+        margin-right: 0;
+        margin-left: 0;
+        padding-top: 50px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 0;
+    }
+
+    #books {
+        width: 100%;
+    }
+
+    #book-search-container {
+        margin: 10px 5%;
+    }
+}
